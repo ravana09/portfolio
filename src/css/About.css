@@ -1,0 +1,29 @@
+/* Add your styles here */
+.aboutSection {
+    padding: 30px;
+    background-color: #f9f9f9;
+  }
+  
+  .aboutContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .aboutContainer img {
+    width: 30%;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    max-width: 70%;
+  }
+  
+  .aboutContainer h3 {
+    font-size: 1.5rem;
+  }
+  
+  .aboutContainer p {
+    font-size: 1rem;
+    color: #555;
+  }
+  

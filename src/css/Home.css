@@ -1,0 +1,34 @@
+.home {
+    background-color: #41b0bf;
+    position: relative;
+    padding: 10px 20px;
+    margin-top: 10px;
+    padding-bottom: 175px
+}
+
+.home-image {
+    position: relative;
+    top: 60px;
+    left: 40px;
+    width: 95%; /* Make the image span the full width of the div */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 20; /* Place the image behind the content */
+}
+.home-gif{
+    position:absolute;
+    right : 550px;
+    top:125px;
+    z-index: 40;
+    width: 15%;
+}
+
+.title {
+    position: absolute;  /* Ensure the title is positioned absolutely */
+    top: 350px;           /* Adjust this to place the title vertically */
+    left: 700px;            /* Center the title horizontally */
+    transform: translateX(-50%);  /* Center the title */
+    font-size: 36px;      /* Adjust the font size as needed */
+    font-weight: bold;    /* Add bold text if you want */
+    color: white;         /* White text color */
+    z-index: 20;          /* Ensure the title is above everything else */
+}
